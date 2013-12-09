@@ -1,0 +1,142 @@
+[Main]
+SizeX=7905
+SizeY=4545
+[1]
+Name=label_1
+Type=JLabel
+Value=No. Orden
+X= 120
+Y= 120
+SizeX= 1080
+SizeY= 360
+[2]
+Name=label_2
+Type=JLabel
+Value=Usuario Facultado
+X= 3480
+Y= 120
+SizeX= 1560
+SizeY= 360
+[3]
+Name=textfield_1
+Type=JTextField
+X= 120
+Y= 480
+SizeX= 1080
+SizeY= 360
+[4]
+Name=textfield_2
+Type=JTextField
+X= 3480
+Y= 480
+SizeX= 1560
+SizeY= 360
+[5]
+Name=combobox_1
+Type=JComboBox
+Value=item1|item2
+X= 1440
+Y= 1200
+SizeX= 2760
+SizeY= 360
+[6]
+Name=label_3
+Type=JLabel
+Value=Sucursal
+X= 120
+Y= 1200
+SizeX= 1080
+SizeY= 360
+[7]
+Name=label_4
+Type=JLabel
+Value=Fecha
+X= 120
+Y= 1800
+SizeX= 1080
+SizeY= 360
+[8]
+Name=label_5
+Type=JLabel
+Value=Lote
+X= 120
+Y= 2520
+SizeX= 1080
+SizeY= 360
+[9]
+Name=textfield_3
+Type=JTextField
+X= 120
+Y= 2880
+SizeX= 1080
+SizeY= 360
+[10]
+Name=label_6
+Type=JLabel
+Value=No. Linea
+X= 1560
+Y= 2520
+SizeX= 1080
+SizeY= 360
+[11]
+Name=textfield_4
+Type=JTextField
+X= 1560
+Y= 2880
+SizeX= 1080
+SizeY= 360
+[12]
+Name=label_7
+Type=JLabel
+Value=Modelo
+X= 2880
+Y= 2520
+SizeX= 1080
+SizeY= 360
+[13]
+Name=textfield_5
+Type=JTextField
+X= 2880
+Y= 2880
+SizeX= 1080
+SizeY= 360
+[14]
+Name=combobox_2
+Type=JComboBox
+Value=item1|item2
+X= 5400
+Y= 2520
+SizeX= 1080
+SizeY= 360
+[15]
+Name=checkbox_1
+Type=JCheckBox
+Value=checkbox_1
+X= 6600
+Y= 2520
+SizeX= 1080
+SizeY= 360
+[16]
+Name=button_1
+Type=JButton
+Value=Aceptar
+X= 1680
+Y= 3840
+SizeX= 1320
+SizeY= 360
+[17]
+Name=button_2
+Type=JButton
+Value=Cancelar
+X= 4080
+Y= 3840
+SizeX= 1320
+SizeY= 360
+[18]
+Name=label_8
+Type=JLabel
+Value=Cantidad
+X= 4200
+Y= 2520
+SizeX= 1080
+SizeY= 360

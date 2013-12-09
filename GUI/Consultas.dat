@@ -1,0 +1,51 @@
+[Main]
+SizeX=4830
+SizeY=3495
+[1]
+Name=combobox_1
+Type=JComboBox
+Value=item1|item2
+X= 2040
+Y= 240
+SizeX= 2160
+SizeY= 360
+[2]
+Name=label_3
+Type=JLabel
+Value=Consulta
+X= 360
+Y= 240
+SizeX= 1320
+SizeY= 360
+[3]
+Name=label_4
+Type=JLabel
+Value=Historial
+X= 360
+Y= 1440
+SizeX= 1320
+SizeY= 360
+[4]
+Name=combobox_2
+Type=JComboBox
+Value=item1|item2
+X= 2040
+Y= 1440
+SizeX= 2160
+SizeY= 360
+[5]
+Name=button_1
+Type=JButton
+Value=Aceptar
+X= 480
+Y= 2760
+SizeX= 1440
+SizeY= 360
+[6]
+Name=button_2
+Type=JButton
+Value=Cancelar
+X= 2640
+Y= 2760
+SizeX= 1440
+SizeY= 360
