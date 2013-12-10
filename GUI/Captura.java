@@ -1,8 +1,14 @@
+package bin;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Captura extends JFrame {
+//import muebleria.Orden_Compra;
+
+public class Captura extends JFrame implements ActionListener{
+
+    private static final long serialVersionUID = 1L;
     JLabel label_1;
     JLabel label_2;
     JTextField textfield_1;
@@ -41,8 +47,8 @@ public class Captura extends JFrame {
         getContentPane().add(textfield_2);
 
         combobox_1 = new JComboBox();
-        combobox_1.addItem("item1");
-        combobox_1.addItem("item2");
+        combobox_1.addItem("Sucursal 1");
+        combobox_1.addItem("Sucursal 2");
         getContentPane().add(combobox_1);
 
         label_3 = new JLabel("Sucursal");
@@ -69,9 +75,11 @@ public class Captura extends JFrame {
         textfield_5 = new JTextField("");
         getContentPane().add(textfield_5);
 
-        combobox_2 = new JComboBox();
-        combobox_2.addItem("item1");
-        combobox_2.addItem("item2");
+        for (int cont=0; cont<10; cont++)
+        {
+            combobox_2 = new JComboBox();    
+            combobox_2.addItem(String.valueOf(cont));
+        }
         getContentPane().add(combobox_2);
 
         checkbox_1 = new JCheckBox("checkbox_1");
@@ -79,9 +87,15 @@ public class Captura extends JFrame {
 
         button_1 = new JButton("Aceptar");
         getContentPane().add(button_1);
+        button_1.addActionListener(this);
+        button_1.setActionCommand("Guardar");
+        add(button_1);
 
         button_2 = new JButton("Cancelar");
         getContentPane().add(button_2);
+        button_2.addActionListener(this);
+        button_2.setActionCommand("Cancelar");
+        add(button_2);
 
         label_8 = new JLabel("Cantidad");
         getContentPane().add(label_8);
@@ -93,6 +107,16 @@ public class Captura extends JFrame {
                 System.exit(0);
             }
         });
+
+    }
+
+    public void actionPerformed(ActionEvent actE)
+    {
+        String action1 = actE.getActionCommand();
+        if (action1.equals("Guardar"))
+        {
+            guardaDatos();
+        }
     }
 
     public static void main(String args[]) {
@@ -106,8 +130,11 @@ public class Captura extends JFrame {
 
     public static void guardaDatos()
     {
-        Orden_Compra ordCompra = new Orden_Compra();
+        /*Orden_Compra ordCompra = new Orden_Compra();
+        //ordCompra.set
         ordCompra.setUsr_Facultado(textfield_2.getText());
+        ordCompra.setSucursal();*/
+        System.out.println("Guardando datos...");
     }
 }
 
