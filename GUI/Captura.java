@@ -102,7 +102,16 @@ public class Captura extends JFrame {
         window.pack();
         window.show();
     }
+
+
+    public static void guardaDatos()
+    {
+        Orden_Compra ordCompra = new Orden_Compra();
+        ordCompra.setUsr_Facultado(textfield_2.getText());
+    }
 }
+
+
 
 class CapturaLayout implements LayoutManager {
 
