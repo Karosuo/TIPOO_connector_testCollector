@@ -1,4 +1,4 @@
-package bin;
+package TIPOOconnector;
 
 import java.util.ArrayList;
 
@@ -32,6 +32,11 @@ public class ErrorLog
 				System.out.println(String.format(">>%s\n", logN));				
 			}
 		}
+	}
+
+	public static void clear()
+	{
+		log.clear();	
 	}
 
 
